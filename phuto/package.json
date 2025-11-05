@@ -1,0 +1,30 @@
+{
+  "name": "braille-recognition",
+  "version": "1.0.0",
+  "description": "Braille recognition web application using TensorFlow.js and OpenCV.js",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "express": "^4.18.2",
+    "multer": "^2.0.0",
+    "sharp": "^0.32.6",
+    "opencv-wasm": "^4.3.0-10"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.10.0",
+    "@types/sharp": "^0.31.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.10"
+  }
+}
